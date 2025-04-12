@@ -19,7 +19,7 @@ const Home = () => {
             <section id="inicio" className="container mx-auto pt-28 pb-16 sm:py-32 px-4">
                 <div className="text-center">
                     <h2 className="text-3xl sm:text-4xl font-bold text-[#8b5cf6] mb-4">¡Hola! Soy Bryan Diaz</h2>
-                    <p className="text-lg sm:text-xl text-[#a78bfa]">Desarrollador de software</p>
+                    <p className="text-lg sm:text-xl text-[#a78bfa]">Desarrollador Full Stack</p>
                 </div>
             </section>
 
@@ -143,7 +143,7 @@ const Home = () => {
                         <span className="text-[#a78bfa] group-hover:text-[#8b5cf6] transition-colors">GitHub</span>
                         </a>
                         <a 
-                            href="https://www.instagram.com/bryan_diaz.dev/" 
+                            href="https://www.instagram.com/daniel_diazz._/" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="group flex flex-col items-center"
