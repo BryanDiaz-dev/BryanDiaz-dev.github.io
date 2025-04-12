@@ -46,7 +46,6 @@ const Home = () => {
                                 </h3>
                                 <div className="grid grid-cols-3 gap-6">
                                     <SkillCard techName="React" />
-                                    <SkillCard techName="JavaFx" />
                                     <SkillCard techName="Tailwind CSS" />
                                 </div>
                             </div>
@@ -68,10 +67,7 @@ const Home = () => {
                                     <span className="text-[#7c3aed]">🛠️</span> Entornos y Herramientas de Desarrollo
                                 </h3>
                                 <div className="grid grid-cols-3 gap-6">
-                                    <SkillCard techName="Intellij IDEA" />
-                                    <SkillCard techName="Eclipse" />
                                     <SkillCard techName="VS Code" />
-                                    <SkillCard techName="Scene Builder" />
                                     <SkillCard techName="phpMyAdmin" />
                                 </div>
                             </div>
