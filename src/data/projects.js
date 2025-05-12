@@ -1,12 +1,14 @@
-// import nexum from '../assets/images/projects/nexum.jpeg'
+import personalNotesCard from '../assets/images/PersonalNotes/imageCard.png'
+import personalNotesImage from '../assets/images/PersonalNotes/image.png'
 
 export const projects = [
-  // {
-  //   id: 1,
-  //   title: "Nexum",
-  //   description: "Gestor de gastos y ahorros",
-  //   image: nexum,
-  //   technologies: ["Java", "Javafx", "SQlite", "Scene Builder", "Intellij IDEA", "CSS"],
-  //   longDescription: "App de escritorio que te permite gestionar y organizar gastos y ahorros, tiene login lo que permite que varios usuarios ingresen sus datos",
-  // },
-];
+  {
+    id: 1,
+    title: 'Personal Notes',
+    description: 'Una aplicación web para crear y gestionar notas personales. Las notas se guardan de forma persistente, incluso al cerrar el navegador, gracias al uso de almacenamiento local. Ideal para organizar tus ideas y tareas diarias.',
+    imageCard: personalNotesCard,
+    images: personalNotesImage,
+    technologies: 'React, Tailwind CSS',
+    github: 'https://github.com/BryanDiaz-dev/PersonalNotes'
+  }
+]

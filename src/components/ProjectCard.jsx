@@ -1,32 +1,22 @@
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-
-const ProjectCard = ({ project}) => {
-    return (
-        <Link 
+const ProjectCard = ({ project }) => {
+  return (
+    <Link
       to={`/project/${project.id}`}
-      className="block transform transition-all duration-500 hover:scale-105 hover:-translate-y-2"
+      className='w-[300px] bg-zinc-800 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow'
     >
-      <div 
-        className="bg-[#222222] rounded-xl overflow-hidden border border-[#6d28d9]/20 transform hover:scale-[1.02] transition-transform duration-300 will-change-transform"
-      >
-        <img 
-          src={project.image} 
-          alt={project.title} 
-          className="w-full h-48 object-cover loading='lazy'" 
-          loading="lazy"
-        />
-        <div className="p-6 transition-all duration-500 hover:bg-[#2a2a2a]">
-          <h3 className="text-xl font-bold mb-2 text-[#8b5cf6] transition-all duration-500 hover:text-[#9f75ff]">
-            {project.title}
-          </h3>
-          <p className="text-[#a78bfa] transition-all duration-500 hover:text-[#bda5fc]">
-            {project.description}
-          </p>
-        </div>
+      <img
+        src={project.imageCard}
+        alt={project.title}
+        className='w-full h-64 object-cover'
+      />
+      <div className='p-4 text-zinc-300'>
+        <h1 className='text-lg font-semibold text-white'>{project.title}</h1>
+        <p className='text-sm text-zinc-400 mt-2'>{project.description}</p>
       </div>
     </Link>
-    )
+  )
 }
 
 export default ProjectCard
